@@ -1,0 +1,10 @@
+.item-list {   
+    margin: 5px;
+}
+
+.item-card {   
+    margin: auto;
+    margin-top: 20px;
+    width: 60%;
+    border: 1px solid black;
+}
