@@ -22,7 +22,9 @@ const UserPage = () => {
             <h1>Hi, {user.name}</h1>
             <h3>from {user.city}</h3>
             <button onClick={() => dispatch(weatherApiCreator())}>Today' weather?</button>
-            <h3>Today's weather in {user.city} is {user.weather}</h3>
+            <h3>{(user.weather) !== undefined ? 
+            `Today's weather in ${user.city} is ${user.weather}`
+            : null}</h3>
             <input
                 placeholder="favorite color"
                 value={favColor}
