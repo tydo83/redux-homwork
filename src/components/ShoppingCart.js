@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux';
-import { REMOVE_FROM_CART_ACTION } from '../redux-state/actions';
+import { REMOVE_FROM_CART_ACTION } from '../redux-state/shoppingCartState';
 
 
 export default function ShoppingCart() {

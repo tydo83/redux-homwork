@@ -1,7 +1,7 @@
 import React from 'react'
 import './ItemList.css'
 import { useDispatch } from 'react-redux';
-import { addToCartActionCreator } from '../redux-state/actions';
+import { addToCartActionCreator } from '../redux-state/shoppingCartState';
 
 export default function ItemList() {
     const Items = [
