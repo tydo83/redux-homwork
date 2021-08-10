@@ -7,6 +7,7 @@ import ShoppingCart from './components/ShoppingCart';
 import ItemList from './components/ItemList';
 import Login from './components/Login'
 import Header from './components/Header'
+import UserPage from './components/UserPage'
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
                 <Route path="/cart">
                   <ItemList />
                   <ShoppingCart />
+                </Route>
+                <Route path="/user">
+                  <UserPage />
                 </Route>
                 <Route path="/login">
                   <Login/>
